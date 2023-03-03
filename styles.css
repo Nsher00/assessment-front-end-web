@@ -1,0 +1,53 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.prflBtn{
+	margin: 10px;
+	border-radius: 0%;
+	border: 0;
+	background-color: cornflowerblue;
+	color: aliceblue;
+	padding: 10px;
+	box-shadow: 4px 4px 10px black;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.prflBtn:hover{
+	background-color: dodgerblue;
+}
